@@ -13,7 +13,7 @@ import br.unasp.meusgastos.model.GastoRepositoryMemoria
 
 
 class GastosViewModel(
-    private val repositorio: GastoRepository = GastoRepositoryDemo()
+    private val repositorio: GastoRepository = GastoRepositoryMemoria()
 ) : ViewModel() {
 
     // ---------- 1. O QUE A TELA PRECISA SABER ----------
